@@ -62,3 +62,20 @@ h1{
     margin-block: 24px;
     font-size: 14px;
  }
+ a{
+    display: block;
+    background-color: var(--grey);
+    margin-bottom: 16px;
+    color: var(--white);
+    text-decoration: none;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 8px;
+ }
+ a:hover {
+    background-color: var(--neon-green);
+    color: var(--grey);
+    transition: 0.3s; 
+ }
+ 
